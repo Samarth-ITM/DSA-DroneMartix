@@ -1,0 +1,44 @@
+# City Graph Format:
+# Node definitions (node_id type name)
+# Node Types: W = Warehouse, C = Checkpoint, D = Delivery, P = Pad, R = Restricted
+NODE 0 W Warehouse_Alpha
+NODE 1 C North_Corridor_1
+NODE 2 C East_Corridor_1
+NODE 3 C South_Corridor_1
+NODE 4 R Restricted_Airport
+NODE 5 D Customer_Zone_A
+NODE 6 D Customer_Zone_B
+NODE 7 D Customer_Zone_C
+NODE 8 P Charging_Pad_1
+NODE 9 P Charging_Pad_2
+NODE 10 C Central_Hub
+NODE 11 R Restricted_Hospital
+NODE 12 D Customer_Zone_D
+NODE 13 D Customer_Zone_E
+NODE 14 P Charging_Pad_3
+
+# Edge definition: EDGE u v weight capacity
+EDGE 0 1 5 3
+EDGE 0 2 6 3
+EDGE 0 3 7 3
+EDGE 0 4 4 1
+EDGE 1 5 8 2
+EDGE 1 8 3 2
+EDGE 1 10 4 4
+EDGE 2 6 7 2
+EDGE 2 9 4 2
+EDGE 2 10 5 4
+EDGE 3 7 9 2
+EDGE 3 14 5 2
+EDGE 3 10 6 4
+EDGE 4 12 10 1
+EDGE 5 10 5 2
+EDGE 6 10 4 2
+EDGE 7 10 6 2
+EDGE 8 10 3 2
+EDGE 9 10 3 2
+EDGE 10 11 2 1
+EDGE 10 12 6 2
+EDGE 10 13 7 2
+EDGE 10 14 4 2
+EDGE 12 13 5 2

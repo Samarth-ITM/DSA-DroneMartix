@@ -1,0 +1,6 @@
+# droneID battery currentNode available
+101 94.5 1 0
+102 85 0 0
+103 7 14 0
+104 86 2 0
+105 30 0 1
