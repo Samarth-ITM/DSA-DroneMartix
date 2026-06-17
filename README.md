@@ -245,3 +245,4 @@ STAGE 12: FINAL SIMULATION SUMMARY
 
 ## 2.12 Conclusion
 Drone-Matrix demonstrates a structured, safety-critical approach to urban drone routing. By combining HashMap-based geographic lookup, Min-Heap drone selection, Dijkstra pathfinding, LIFO checkpoint stacks, and edge capacity locks, the framework coordinates fleet dispatches, manages traffic bottlenecks, and recovers from weather emergencies. The React web skin provides a telemetry dashboard that matches the backend state.
+# DSA-DroneMartix
